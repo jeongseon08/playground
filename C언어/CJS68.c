@@ -1,15 +1,15 @@
-//ÃÖÁ¤¼±68*-¸Å°³º¯¼ö(ÆÄ¶ó¹ÌÅÍ)°¡ 2°³ÀÎ »ç¿ëÀÚÁ¤ÀÇ ÇÔ¼ö #4
+//ìµœì •ì„ 68*-ë§¤ê°œë³€ìˆ˜(íŒŒë¼ë¯¸í„°)ê°€ 2ê°œì¸ ì‚¬ìš©ìžì •ì˜ í•¨ìˆ˜ #4
 #include <stdio.h>
-int abc(int, int); //¸Å°³º¯¼ö°¡ Á¤¼öÇü 2°³ÀÎ ÇÔ¼ö¼±¾ðºÎ·Î¼­ ¸®ÅÏ°ªÀÌ Á¤¼öÇüÀÌ¹Ç·Î intÇüÀ¸·Î ¼±¾ðÇÑ´Ù.
+int abc(int, int); //ë§¤ê°œë³€ìˆ˜ê°€ ì •ìˆ˜í˜• 2ê°œì¸ í•¨ìˆ˜ì„ ì–¸ë¶€ë¡œì„œ ë¦¬í„´ê°’ì´ ì •ìˆ˜í˜•ì´ë¯€ë¡œ intí˜•ìœ¼ë¡œ ì„ ì–¸í•œë‹¤.
 void main()
 {
 int a;
-a=abc(100,200); //¸Å°³º¯¼ö°¡ 2°³ÀÎ ÇÔ¼ö È£ÃâºÎ, ¸®ÅÏ°ª Á¸Àç
-printf("¸®ÅÏ°ªa=%d\n",a);
-} //main()ÇÔ¼ö Á¤ÀÇºÎÀÇ Áß°ýÈ£
-int abc(int x, int y) //main()ÇÔ¼ö¿¡¼­ È£ÃâµÉ ‹š 2°³ÀÇ ¸Å°³º¯¼öÀÎ 100, 200À» ¹Þ±âÀ§ÇÑ ¸Å°³º¯¼ö x¿Í y¸¦ µ¿ÀÏÇÑ Á¤¼öÇü (int)À¸·Î »ç¿ëÇÑ´Ù.
+a=abc(100,200); //ë§¤ê°œë³€ìˆ˜ê°€ 2ê°œì¸ í•¨ìˆ˜ í˜¸ì¶œë¶€, ë¦¬í„´ê°’ ì¡´ìž¬
+printf("ë¦¬í„´ê°’a=%d\n",a);
+} //main()í•¨ìˆ˜ ì •ì˜ë¶€ì˜ ì¤‘ê´„í˜¸
+int abc(int x, int y) //main()í•¨ìˆ˜ì—ì„œ í˜¸ì¶œë  ë–„ 2ê°œì˜ ë§¤ê°œë³€ìˆ˜ì¸ 100, 200ì„ ë°›ê¸°ìœ„í•œ ë§¤ê°œë³€ìˆ˜ xì™€ yë¥¼ ë™ì¼í•œ ì •ìˆ˜í˜• (int)ìœ¼ë¡œ ì‚¬ìš©í•œë‹¤.
 {
-int r; //ÇÔ¼ö abc()ÀÇ Áö¿ªº¯¼ö
+int r; //í•¨ìˆ˜ abc()ì˜ ì§€ì—­ë³€ìˆ˜
 r=x+y;
-return r; //abc()ÇÔ¼öÀÇ¸®ÅÏ°ª(ss)À» ÁöÁ¤ÇÑ´Ù.
+return r; //abc()í•¨ìˆ˜ì˜ë¦¬í„´ê°’(ss)ì„ ì§€ì •í•œë‹¤.
 }

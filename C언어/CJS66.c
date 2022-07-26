@@ -1,24 +1,24 @@
-//ÃÖÁ¤¼±66**-»ç¿ëÀÚÁ¤ÀÇÇÔ¼ö#2
+//ìµœì •ì„ 66**-ì‚¬ìš©ìžì •ì˜í•¨ìˆ˜#2
 #include <stdio.h>
-void abc();//ÇÔ¼ö¼±¾ðºÎ, ÇÔ¼ö´Â È£ÃâµÇ±âÀü¿¡ ¹Ýµå½Ã ¼±¾ðµÇ¾î¾ßÇÑ´Ù. main()ÇÔ¼ö¾Õ¿¡
+void abc();//í•¨ìˆ˜ì„ ì–¸ë¶€, í•¨ìˆ˜ëŠ” í˜¸ì¶œë˜ê¸°ì „ì— ë°˜ë“œì‹œ ì„ ì–¸ë˜ì–´ì•¼í•œë‹¤. main()í•¨ìˆ˜ì•žì—
 int xyz();
 void main()
 {
 int s;
-printf("ÇöÀç main()ÇÔ¼ö¿¡ ÀÖÀ½\n");
-abc(); //»ç¿ëÀÚÁ¤ÀÇÇÔ¼ö , ÇÔ¼öÈ£ÃâºÎ
-printf("´Ù½Ã main()ÇÔ¼ö·Î µ¹¾Æ¿È\n");
-s=xyz(); //¸®ÅÏ°ªÀ» º¯¼ös¿¡ ´ëÀÔÇÏ´Â ÇÔ¼ö È£ÃâºÎ
-printf("ÇÔ¼ö xyz()·ÎºÎÅÍ ¸®ÅÏ°ªÀº %d\n",s);
+printf("í˜„ìž¬ main()í•¨ìˆ˜ì— ìžˆìŒ\n");
+abc(); //ì‚¬ìš©ìžì •ì˜í•¨ìˆ˜ , í•¨ìˆ˜í˜¸ì¶œë¶€
+printf("ë‹¤ì‹œ main()í•¨ìˆ˜ë¡œ ëŒì•„ì˜´\n");
+s=xyz(); //ë¦¬í„´ê°’ì„ ë³€ìˆ˜sì— ëŒ€ìž…í•˜ëŠ” í•¨ìˆ˜ í˜¸ì¶œë¶€
+printf("í•¨ìˆ˜ xyz()ë¡œë¶€í„° ë¦¬í„´ê°’ì€ %d\n",s);
 }
-void abc() //ÇÔ¼ö Á¤ÀÇºÎ
+void abc() //í•¨ìˆ˜ ì •ì˜ë¶€
 {
-printf("¾È³çÇÏ¼¼¿ä.\n");
-printf("¹Ý°©½À´Ï´Ù.\n");
+printf("ì•ˆë…•í•˜ì„¸ìš”.\n");
+printf("ë°˜ê°‘ìŠµë‹ˆë‹¤.\n");
 }	
-int xyz() //ÇÔ¼öÁ¤ÀÇºÎ, ÇÔ¼ö¼±¾ðºÎ¿Í µ¿ÀÏÇÑ ÇÔ¼ö ÀÇ Çü (int)À¸·ÎÁ¤ÀÇ ÇØÁØ´Ù.
+int xyz() //í•¨ìˆ˜ì •ì˜ë¶€, í•¨ìˆ˜ì„ ì–¸ë¶€ì™€ ë™ì¼í•œ í•¨ìˆ˜ ì˜ í˜• (int)ìœ¼ë¡œì •ì˜ í•´ì¤€ë‹¤.
 {
-printf("xyz()ÇÔ¼ö¿¡ ÀÖÀ½\n");
-return 777; //È£ÃâµÈ ÇÔ¼öÁ¤ÀÇºÎ¿¡ return¹®ÀåÀÌÀÖÀ¸¸é ¿·¿¡ ³ª¿À´Â º¯¼ö¶Ç´Â °ªÀ» È£ÃâµÈ °÷À¸·Î µ¹·ÁÁØ´Ù.
+printf("xyz()í•¨ìˆ˜ì— ìžˆìŒ\n");
+return 777; //í˜¸ì¶œëœ í•¨ìˆ˜ì •ì˜ë¶€ì— returnë¬¸ìž¥ì´ìžˆìœ¼ë©´ ì˜†ì— ë‚˜ì˜¤ëŠ” ë³€ìˆ˜ë˜ëŠ” ê°’ì„ í˜¸ì¶œëœ ê³³ìœ¼ë¡œ ëŒë ¤ì¤€ë‹¤.
 
 }

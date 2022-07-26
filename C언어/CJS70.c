@@ -1,19 +1,19 @@
-//ÃÖÁ¤¼±70*-¹ÝÈ¯°ªÀÌ ÀÖ°Å³ª ¾ø´Â ÇÔ¼ö¿¬½À
+//ìµœì •ì„ 70*-ë°˜í™˜ê°’ì´ ìžˆê±°ë‚˜ ì—†ëŠ” í•¨ìˆ˜ì—°ìŠµ
 #include <stdio.h>
-void abc(); //ÇÔ¼ö¼±¾ðºÎ, ¸®ÅÏ°ªÀÌ ¾øÀ¸¹Ç·Î void ÇüÀ¸·Î
-char xyz(); //ÇÔ¼ö¼±¾ðºÎ, ¸®ÅÏ°ªÀÌ Á¤¼öÇüÀÌ¹Ç·Î intÇüÀ¸·Î ¼±¾ð
-void main() //¸®ÅÏ°ªÀÌ ¾øÀ¸¹Ç·Î void ÇüÀ¸·Î¼±¾ð
+void abc(); //í•¨ìˆ˜ì„ ì–¸ë¶€, ë¦¬í„´ê°’ì´ ì—†ìœ¼ë¯€ë¡œ void í˜•ìœ¼ë¡œ
+char xyz(); //í•¨ìˆ˜ì„ ì–¸ë¶€, ë¦¬í„´ê°’ì´ ì •ìˆ˜í˜•ì´ë¯€ë¡œ intí˜•ìœ¼ë¡œ ì„ ì–¸
+void main() //ë¦¬í„´ê°’ì´ ì—†ìœ¼ë¯€ë¡œ void í˜•ìœ¼ë¡œì„ ì–¸
 {
-int a; //Áö¿ªº¯¼ö¼±¾ð
+int a; //ì§€ì—­ë³€ìˆ˜ì„ ì–¸
 abc();
-a=xyz(); //ÇÔ¼öÈ£Ãâ, ¸®ÅÏ°ªÀ» º¯¼öa°¡ ¹ÞÀ½
-printf("È£ÃâµÈ ÇÔ¼öxyz()ÀÇ ¸®ÅÏ°ª=%d\n",a);
+a=xyz(); //í•¨ìˆ˜í˜¸ì¶œ, ë¦¬í„´ê°’ì„ ë³€ìˆ˜aê°€ ë°›ìŒ
+printf("í˜¸ì¶œëœ í•¨ìˆ˜xyz()ì˜ ë¦¬í„´ê°’=%d\n",a);
 }
-void abc()  //ÇÔ¼ö Á¤ÀÇºÎ
+void abc()  //í•¨ìˆ˜ ì •ì˜ë¶€
 {
-	printf("¾È³çÇÏ¼¼¿ä abc()ÇÔ¼öÀÔ´Ï´Ù.\n");
+	printf("ì•ˆë…•í•˜ì„¸ìš” abc()í•¨ìˆ˜ìž…ë‹ˆë‹¤.\n");
 }
-char xyz() //ÇÔ¼öÁ¤ÀÇºÎ, ¸®ÅÏ°ªÀÌ Á¤¼öÀÌ¹Ç·ÎintÇüÀ¸·Î
+char xyz() //í•¨ìˆ˜ì •ì˜ë¶€, ë¦¬í„´ê°’ì´ ì •ìˆ˜ì´ë¯€ë¡œintí˜•ìœ¼ë¡œ
 {
-return s; //È£ÃâµÈ °÷¿¡ °ªÀ» ¸®ÅÏ(Àü´Þ)¹®
+return s; //í˜¸ì¶œëœ ê³³ì— ê°’ì„ ë¦¬í„´(ì „ë‹¬)ë¬¸
 }
