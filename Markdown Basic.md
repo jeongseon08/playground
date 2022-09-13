@@ -1,7 +1,13 @@
 <!--Heading-->
 # Heading 1
+```markdown
+# Heading 1
+```
 Paragraph 1
 ## Heading 2
+```markdown
+## Heading 2
+```
 Paragraph 2
 ### Heading 3
 Paragraph 3
