@@ -86,9 +86,9 @@ This is the **bold** text and this is the *italic* text and let's do ~~strikethr
 3.
 
 <!--Link-->
-Click [here] https://www.instagram.com/invites/contact/?i=i4605yceathg&utm_content=1ua2t18
+Click [here] https://github.com/jeongseon08
 ```markdown
-Click [here] https://www.instagram.com/invites/contact/?i=i4605yceathg&utm_content=1ua2t18
+Click [here] https://github.com/jeongseon08
 ```
 <!--Image-->
 ![image description] 
