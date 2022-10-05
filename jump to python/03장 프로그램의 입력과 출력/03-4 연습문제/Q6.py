@@ -1,0 +1,5 @@
+w=input()
+f=open("C:/code/playground/jump to python/03장 프로그램의 입력과 출력/03-4 연습문제/Q6.txt","a")
+f.write(w)
+f.write("\n")
+f.close()

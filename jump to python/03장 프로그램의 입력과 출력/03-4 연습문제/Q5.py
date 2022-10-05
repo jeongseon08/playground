@@ -1,0 +1,5 @@
+f1=open("C:/code/playground/jump to python/03장 프로그램의 입력과 출력/03-4 연습문제/Q5.txt","w")
+f1.write("Life is too short")
+f1.close()
+f2=open("C:/code/playground/jump to python/03장 프로그램의 입력과 출력/03-4 연습문제/Q5.txt","r")
+print(f2.read())
